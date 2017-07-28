@@ -14,6 +14,7 @@
 		43852CFF1F2B13BE00722AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43852CFD1F2B13BE00722AF6 /* LaunchScreen.storyboard */; };
 		43852D0A1F2B13BE00722AF6 /* devslopes_app_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43852D091F2B13BE00722AF6 /* devslopes_app_01Tests.swift */; };
 		43852D151F2B13BE00722AF6 /* devslopes_app_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43852D141F2B13BE00722AF6 /* devslopes_app_01UITests.swift */; };
+		43852D231F2B14AA00722AF6 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43852D221F2B14AA00722AF6 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		43852D101F2B13BE00722AF6 /* devslopes_app_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devslopes_app_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43852D141F2B13BE00722AF6 /* devslopes_app_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devslopes_app_01UITests.swift; sourceTree = "<group>"; };
 		43852D161F2B13BE00722AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43852D221F2B14AA00722AF6 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		43852CF31F2B13BE00722AF6 /* devslopes_app_01 */ = {
 			isa = PBXGroup;
 			children = (
+				43852D221F2B14AA00722AF6 /* hustle-on.wav */,
 				43852CF41F2B13BE00722AF6 /* AppDelegate.swift */,
 				43852CF61F2B13BE00722AF6 /* ViewController.swift */,
 				43852CF81F2B13BE00722AF6 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43852D231F2B14AA00722AF6 /* hustle-on.wav in Resources */,
 				43852CFF1F2B13BE00722AF6 /* LaunchScreen.storyboard in Resources */,
 				43852CFC1F2B13BE00722AF6 /* Assets.xcassets in Resources */,
 				43852CFA1F2B13BE00722AF6 /* Main.storyboard in Resources */,
