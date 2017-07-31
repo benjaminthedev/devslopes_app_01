@@ -13,16 +13,12 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var darkBlueBG: UIImageView!
-
     @IBOutlet weak var powerButton: UIButton!
-    
     @IBOutlet weak var cloudHolder: UIView!
-    
     @IBOutlet weak var rocket: UIImageView!
-    
     @IBOutlet weak var programmingLbl: UILabel!
-    
     @IBOutlet weak var onLbl: UILabel!
+    
     
     var player: AVAudioPlayer!
     
@@ -46,10 +42,13 @@ class ViewController: UIViewController {
         darkBlueBG.isHidden = true
         powerButton.isHidden = true
         
+        player.play()
+        
         UIView.animate(withDuration: 2.3, animations: { 
-            
+            self.rocket.frame = CGRect(x: 0, y: 20, width: 375, height: 402)
         }) { (finished) in
-            
+            self.programmingLbl.isHidden = false
+            self.onLbl.isHidden = false
         }
         
         
