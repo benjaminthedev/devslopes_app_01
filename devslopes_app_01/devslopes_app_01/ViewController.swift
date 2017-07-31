@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -23,9 +24,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var onLbl: UILabel!
     
+    var player: AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        }   catch let error as NSError{
+                print(error.description)
+            }
     }
 
 
@@ -34,6 +45,12 @@ class ViewController: UIViewController {
         cloudHolder.isHidden = false
         darkBlueBG.isHidden = true
         powerButton.isHidden = true
+        
+        UIView.animate(withDuration: 2.3, animations: { 
+            
+        }) { (finished) in
+            
+        }
         
         
     }
